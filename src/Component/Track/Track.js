@@ -4,12 +4,12 @@ import './Track.css'
 class Track extends React.Component {
     render() {
         return (
-            <div class="Track">
-                <div class="Track-information">
-                    <h3><!-- track name will go here --></h3>
-                    <p><!-- track artist will go here--> | <!-- track album will go here --></p>
+            <div className="Track">
+                <div className="Track-information">
+                    <h3>track name will go here</h3>
+                    <p>track artist will go here| track album will go here</p>
                 </div>
-                <button class="Track-action"><!-- + or - will go here --></button>
+                <button className="Track-action"></button>
             </div>
 
         )
@@ -17,3 +17,5 @@ class Track extends React.Component {
 }
 
 export default Track;
+
+
